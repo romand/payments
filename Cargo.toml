@@ -4,6 +4,9 @@ version = "0.1.0"
 authors = ["Roman Dzvinkovsky <romand.ne@gmail.com>"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+csv = "1.1"
+serde = { version = "1.0", features = ["derive"] }
+
+[dev-dependencies]
+quickcheck = "1"
